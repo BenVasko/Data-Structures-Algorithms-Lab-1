@@ -1,0 +1,70 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.next, .bug-box {
+margin-top: 10%;
+}
+
+.next {
+    background: coral;
+    color: whitesmoke;
+    width: 25%;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.next:hover {
+    cursor: pointer;
+    background: lightsalmon;
+}
+
+.bug-box {
+    width: 40%;
+    background: lightgray;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #564cdd;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px auto;
+}
+
+.description {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.fixed, .not-fixed {
+    padding: 20px;
+}
+
+.fixed:hover {
+    background: lightgreen;
+    cursor: pointer;
+}
+
+.not-fixed:hover {
+    background: rgb(255, 129, 129);
+    cursor: pointer;
+}
